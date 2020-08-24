@@ -1,8 +1,10 @@
-# Maintainer: Ben Lönnqvist <lonnqvistben@gmail.com>
+# Maintainer: Ben 'silentnoodle' Lönnqvist <lonnqvistben at gmail dot com>
+# Contributor: Giovanni 'ItachiSan' Santini <giovannisantini93 at yahoo dotit>
+# Contributor:  agnotek <agnostic.sn at gmail dot com>
 
 pkgname=telegram-desktop-bin
 pkgver=2.3.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Official desktop version of Telegram messaging app - Static binaries"
 arch=('x86_64' 'x86_32')
 url="https://desktop.telegram.org"
