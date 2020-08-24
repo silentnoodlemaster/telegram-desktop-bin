@@ -4,9 +4,9 @@
 
 pkgname=telegram-desktop-bin
 pkgver=2.3.2
-pkgrel=2
+pkgrel=3
 pkgdesc="Official desktop version of Telegram messaging app - Static binaries"
-arch=('x86_64' 'x86_32')
+arch=('x86_64' 'i686')
 url="https://desktop.telegram.org"
 license=('GPL3')
 depends=(
@@ -38,7 +38,7 @@ source_x86_64=(
 	"https://updates.tdesktop.com/tlinux/tsetup.${pkgver}.tar.xz"
 
 )
-source_x86_32=(
+source_i686=(
 	"https://updates.tdesktop.com/tlinux32/tsetup32.${pkgver}.tar.xz"
 )
 # Checksums
@@ -52,7 +52,7 @@ sha256sums=('32d1597d67a7ef519367e499fcc978da4cce104e370b3787853446d93b1533d6'
             '871f2a6d3bd9d657f8379196e51fd3117c1586e0042e9e993ae138f78b2bcd76'
             'a9eb77ca5a428b32f6e01f62b859cce788c4c9a170dc2cd080800a9de59faa3d')
 sha256sums_x86_64=('2809b226c672e88e8b5a8a4927a3b7fa46189976eaa99ebf21b6899ff14edc28')
-sha256sums_x86_32=('d583769435dbfc59de486943a7e1bc6cd34d017543e187fad452df79d88a4ad9')
+sha256sums_i686=('d583769435dbfc59de486943a7e1bc6cd34d017543e187fad452df79d88a4ad9')
 # Some installation information
 install="$pkgname.install"
 
