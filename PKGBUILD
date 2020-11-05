@@ -1,6 +1,6 @@
 # Maintainer: Giovanni 'ItachiSan' Santini <giovannisantini93 at yahoo dot it>
 # Contributor: Ben 'silentnoodle' Lönnqvist <lonnqvistben at gmail dot com>
-# Contributor:  agnotek <agnostic.sn at gmail dot com>
+# Contributor: agnotek <agnostic.sn at gmail dot com>
 
 pkgname=telegram-desktop-bin
 pkgver=2.4.7
